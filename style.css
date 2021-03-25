@@ -32,14 +32,14 @@ body {
   outline: none;
 }
 
-span.circle {
+button .circle {
   position: absolute;
   background-color: #fff;
   height: 100px;
   width: 100px;
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0);
-  transition: scale 0.3s ease-out;
+  animation: scale 0.5s ease-out;
 }
 
 @keyframes scale {
